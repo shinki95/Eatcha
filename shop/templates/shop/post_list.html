@@ -1,0 +1,17 @@
+
+{% extends "shop/layout.html" %}
+
+{% block content %}
+
+
+<h1>Eatcha </h1>
+{{photo.tag}}
+
+<ul>
+
+<li><img src="{{ photo.image.url }}"  width="300px" height="300px" />
+</li>
+
+</ul>
+
+{% endblock %}

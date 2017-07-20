@@ -1,0 +1,16 @@
+{% extends "blog/layout.html" %}
+
+{% block title %}
+{{post.title}}
+{% endblock %}
+
+{% block content %}
+
+<h1>Eatcha</h1>
+<h2>{{post.title}}</h2>
+    {{post.content|linebreaks}}
+    </hr>
+    <h3>SHOP</h3>
+
+
+{% endblock %}
